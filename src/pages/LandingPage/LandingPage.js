@@ -1,4 +1,5 @@
 import Advantages from "../../components/Advantages/Advantages";
+import Features from "../../components/Features/Features";
 import Preview from "../../components/Preview/Preview";
 
 function LandingPage() {
@@ -6,6 +7,7 @@ function LandingPage() {
         <>
             <Preview></Preview>
             <Advantages></Advantages>
+            <Features></Features>
         </>
     )
 }
