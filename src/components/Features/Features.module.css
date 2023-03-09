@@ -19,16 +19,35 @@
     border-radius: 16px;
 }
 
-.container p {
-    font: 400 18px 'Montserrat';
-    color: #FFFFFF;
+.wrapper .container .container-p {
+    font: 400 18px "Montserrat";
+    color: #ffffff;
     padding: 13px 40px;
     border-radius: 10px;
+  }
+  
+  .container-p-2 {
+    font: 400 18px "Montserrat";
+    color: #434247;
+    background: #ffffff;
+    padding: 13px 40px;
+    border-radius: 10px;
+  }
+
+.container p {
+    font: 400 18px 'Montserrat';
+    color: #2B2A2D;
+    padding: 13px 40px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
-.container p:hover {
-    color: black;
-    background: #FFFFFF;
+.container-p:hover {
+    font: 400 18px "Montserrat";
+    color: #ffffff;
+    padding: 13px 40px;
+    background: #434247;
+    border-radius: 10px;
 }
 
 .container p:first-child {

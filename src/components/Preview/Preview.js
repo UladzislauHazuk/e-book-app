@@ -1,8 +1,9 @@
 import style from './Preview.module.css'
+import { Link } from "react-scroll";
 
 function Preview() {
     return (
-        <div className={style['wrapper']}>
+        <div id='start' className={style['wrapper']}>
             <div className={style['image']}></div>
             <div className={style['preview-information']}>
                 <div>
@@ -15,7 +16,7 @@ function Preview() {
                     </div>
                 </div>
                 <div className={style['explore']}>
-                    <p>Explore more</p>
+                    <Link activeClass="active" to="features" spy={true} smooth={true} offset={-50} duration={500}>Explore more</Link>
                     <div className={style['arrow']}></div>
                 </div>
             </div>

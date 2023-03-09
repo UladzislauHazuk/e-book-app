@@ -1,4 +1,3 @@
-import style from './Features.module.css'
 import ExploreItems from './ExploreItem'
 
 function FeatureItem ({label}) {
